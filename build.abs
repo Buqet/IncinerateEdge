@@ -1,0 +1,7 @@
+let nimflags = "-d:release --app:gui --opt:speed"
+
+nim c $nimflags -o:bin/IncinerateEdge.exe src/incinerateedge.nim
+
+echo "Build complete: bin/IncinerateEdge.exe"
+
+io.stdin.readLine()
